@@ -1,3 +1,4 @@
+/* INDEX.HTML */
 /* ADDS GRID TO DIVS W/ CLASS OF WRAPPER */
 .wrapper {
 	display: grid;
@@ -15,5 +16,21 @@
 
 /* ADDS DIFF SHADE OF GRAY TO EVERY OTHER DIV W/ WRAPPER CLASS */
 .wrapper > div:nth-child(odd) {
+	background: #ddd;
+}
+
+/* INDEX2.HTML */
+.container {
+	display: grid;
+}
+
+/* ADDS LIGHT GREY BACKGROUND TO ALL DIVS W/ CONTAINER CLASS */
+.container > div {
+	background: #eee;
+	padding: 1em;
+}
+
+/* ADDS DIFF SHADE OF GRAY TO EVERY OTHER DIV W/ CONTAINER CLASS */
+.container > div:nth-child(odd) {
 	background: #ddd;
 }
