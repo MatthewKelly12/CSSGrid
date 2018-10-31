@@ -1,0 +1,16 @@
+/* ADDS GRID TO DIVS W/ CLASS OF WRAPPER */
+.wrapper {
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+/* ADDS LIGHT GREY BACKGROUND TO ALL DIVS W/ WRAPPER CLASS */
+.wrapper > div {
+	background: #eee;
+	padding: 1em;
+}
+
+/* ADDS DIFF SHADE OF GRAY TO EVERY OTHER DIV W/ WRAPPER CLASS */
+.wrapper > div:nth-child(odd) {
+	background: #ddd;
+}
